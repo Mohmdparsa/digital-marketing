@@ -3,6 +3,7 @@ import FirstPage from "./FirstPage";
 import FirstPageBoxes from "./FirstPageBoxes";
 import TeamImage from "./TeamImage"
 import Description from "./Description"
+import Services from "./Services"
 const Main = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Main = () => {
         <FirstPageBoxes/>
         <TeamImage/>
         <Description/>
+        <Services/>
        
       </div>
     </>
