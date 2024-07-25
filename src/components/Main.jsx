@@ -2,6 +2,7 @@ import Navbar from "./header/Navbar";
 import FirstPage from "./FirstPage";
 import FirstPageBoxes from "./FirstPageBoxes";
 import TeamImage from "./TeamImage"
+import Description from "./Description"
 const Main = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Main = () => {
         <FirstPage />
         <FirstPageBoxes/>
         <TeamImage/>
+        <Description/>
        
       </div>
     </>
