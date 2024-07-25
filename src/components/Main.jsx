@@ -1,6 +1,7 @@
 import Navbar from "./header/Navbar";
 import FirstPage from "./FirstPage";
 import FirstPageBoxes from "./FirstPageBoxes";
+import TeamImage from "./TeamImage"
 const Main = () => {
   return (
     <>
@@ -8,6 +9,8 @@ const Main = () => {
         <Navbar />
         <FirstPage />
         <FirstPageBoxes/>
+        <TeamImage/>
+       
       </div>
     </>
   );
