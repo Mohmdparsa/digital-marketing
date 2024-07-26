@@ -35,7 +35,7 @@ const Services = () => {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row  items-center rounded-lg overflow-hidden max-w-sm mx-auto w-[230px] h-[300px]"
+            className="flex flex-col  items-center rounded-lg overflow-hidden max-w-sm mx-auto w-[230px] h-[300px]"
           >
             <img
               src={card.imageUrl}
