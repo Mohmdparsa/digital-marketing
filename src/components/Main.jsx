@@ -4,6 +4,7 @@ import FirstPageBoxes from "./FirstPageBoxes";
 import TeamImage from "./TeamImage"
 import Description from "./Description"
 import Services from "./Services"
+import ViewCarousel from "./ViewCarousel"
 const Main = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Main = () => {
         <TeamImage/>
         <Description/>
         <Services/>
+        <ViewCarousel/>
        
       </div>
     </>
