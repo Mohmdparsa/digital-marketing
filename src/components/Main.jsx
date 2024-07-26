@@ -5,6 +5,7 @@ import TeamImage from "./TeamImage"
 import Description from "./Description"
 import Services from "./Services"
 import ViewCarousel from "./ViewCarousel"
+import OfferSection from "./OfferSection"
 const Main = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Main = () => {
         <Description/>
         <Services/>
         <ViewCarousel/>
+        <OfferSection/>
        
       </div>
     </>
