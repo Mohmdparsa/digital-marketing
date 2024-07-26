@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'custom-black': '#333333',
         'custom-orange': '#FF5722',
+        'custom-gray' : "#999999",
       },
     },
   },
