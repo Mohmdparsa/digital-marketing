@@ -8,6 +8,7 @@ import ViewCarousel from "./ViewCarousel"
 import OfferSection from "./OfferSection"
 import Portfolio from "./Portfolio";
 import Guidance from "./Guidance";
+import Footer from "./Footer";
 const Main = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const Main = () => {
         <OfferSection/>
         <Portfolio/>
         <Guidance/>
+        <Footer/>
        
       </div>
     </>
