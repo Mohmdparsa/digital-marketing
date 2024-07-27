@@ -7,6 +7,7 @@ import Services from "./Services"
 import ViewCarousel from "./ViewCarousel"
 import OfferSection from "./OfferSection"
 import Portfolio from "./Portfolio";
+import Guidance from "./Guidance";
 const Main = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Main = () => {
         <ViewCarousel/>
         <OfferSection/>
         <Portfolio/>
+        <Guidance/>
        
       </div>
     </>
