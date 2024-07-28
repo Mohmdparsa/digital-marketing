@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Rectangle from "../../assets/headerImage/Rectangle.png";
+import Rectangle from "../assets/headerImage/Rectangle.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
