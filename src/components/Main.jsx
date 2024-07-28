@@ -1,4 +1,4 @@
-import Navbar from "./header/Navbar";
+import Navbar from "./Navbar";
 import FirstPage from "./FirstPage";
 import FirstPageBoxes from "./FirstPageBoxes";
 import TeamImage from "./TeamImage"
