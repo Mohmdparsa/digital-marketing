@@ -2,7 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import circle1 from "../assets/serviceImage/circle1.png";
+import image1 from "../assets/carouselImages/image1.jpg";
+import image2 from "../assets/carouselImages/image2.jpg";
+import image3 from "../assets/carouselImages/image3.jpg";
 
 const ViewCarousel = () => {
   const slides = [
@@ -11,20 +13,20 @@ const ViewCarousel = () => {
         "از همکاری با آژانس شما بسیار راضی هستم. تیم طراحی شما بسیار حرفه ای و با تجربه هستند. وب سایت من بسیار جذاب و کاربرپسند است . بازدیدکنندگان به راحتی می توانند اطلاعات مورد نظر خود را در آن پیدا کنند. همچنین وب سایت من  به خوبی با دستگاه های مختلف سازگار است.",
       name: "مونا صالحی",
       job: "پزشک متخصص",
-      image: circle1,
+      image: image3,
     },
     {
       comment:
         "تیم طراحی شما بسیار حرفه ای و با تجربه هستند. وب سایت من بسیار جذاب و کاربرپسند است .",
       name: "علی صادقی",
       job: "عکاس",
-      image: circle1,
+      image: image1,
     },
     {
       comment: "از همکاری با شما بسیار خرسندم",
       name: "رضا محمدی",
       job: "نقاش",
-      image: circle1,
+      image: image2,
     },
   ];
 
@@ -63,7 +65,7 @@ const ViewCarousel = () => {
                 <img
                   src={slide.image}
                   alt={slide.image}
-                  className=" w-[163px] h-[163px] md:w-[229px] md:h-[229px] "
+                  className=" w-[163px] h-[163px] md:w-[229px] md:h-[229px]  rounded-full"
                   style={{ margin: "0", padding: "0" }}
                 />
               </div>
