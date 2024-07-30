@@ -1,38 +1,38 @@
 import React from "react";
 import image1 from "../assets/firstPageImage/image1.png";
-import H1desk from "../assets/firstPageImage/H1desk.png";
-import Pdesk from "../assets/firstPageImage/Pdesk.png";
-import pmobile from "../assets/firstPageImage/Pmobile.png";
-import h1mobile from "../assets/firstPageImage/H1mobile.png";
 
 const FirstPage = () => {
   return (
-    <div className="container h-[722.7px] w-full flex flex-col md:flex-row -mt-20 justify-center items-center mr-0 md:mr-[5rem] lg:mr-[1rem]">
+    <div className="container h-[722.7px] w-full flex flex-col md:flex-row -mt-20 justify-center items-center mr-0 md:mr-[2.5rem] lg:mr-[1rem]">
       <div className="flex flex-col md:flex-row justify-between items-center w-full">
         <div className="order-2 md:order-1 mt-[10rem] md:mt-[6rem] rounded-lg mx-auto md:w-[35rem] w-full flex flex-col lg:flex-col items-center lg:items-end">
-          <img
-            className="block lg:hidden mb-2 mx-auto lg:mr-[2rem] w-[320px] h-[192px]"
-            src={h1mobile}
-            alt="Mobile Heading"
-          />
+          <div className="hidden lg:block  mb-2 mx-auto w-[595px] h-[120px]">
+            <h1 className="text-5xl font-bold">می خوای یه سایت </h1>
+            <h1 className="text-5xl font-bold">
+              با <span className="text-custom-orange">طراحی به روز </span>داشته
+              باشی{" "}
+            </h1>
+          </div>
+          <div className="block lg:hidden  mx-auto lg:mr-[2rem] w-[320px] h-[192px]">
+            <h1 className="text-4xl font-bold mr-[1rem]">می خوای یه سایت</h1>
+            <h1 className="text-4xl font-bold mr-[2rem]">
+              {" "}
+              <span className="text-custom-orange">طراحی به روز </span>با{" "}
+            </h1>
+            <h1 className="text-4xl font-bold mr-[3.6rem]">داشته باشی</h1>
+          </div>
 
-          <img
-            className="hidden lg:block text-4xl mb-2 mx-auto w-[595px] h-[120px]"
-            src={H1desk}
-            alt="Desktop Heading"
-          />
-
-          <img
-            className="block lg:hidden mb-2 mt-[7rem] mx-auto w-[320px] h-[87px]"
-            src={pmobile}
-            alt="Mobile Paragraph"
-          />
-
-          <img
-            className="hidden lg:block text-4xl mb-2 mt-[7rem] mx-auto w-[514px] h-[54px]"
-            src={Pdesk}
-            alt="Desktop Paragraph"
-          />
+          <div className="hidden lg:block t mb-2 ml-[3rem] w-[514px] h-[54px]">
+            <p>
+              آژانس طراحی فیوچر به همراه تیمی متخصص در طراحی و توسعه وب سایت با
+            </p>
+            <p>سال ها تجربه در این زمینه در خدمت شماست</p>
+          </div>
+          <div className="block lg:hidden mb-2  mx-auto w-[320px] h-[87px]">
+            <p>آژانس طراحی فیوچر به همراه تیمی متخصص در</p>
+            <p> طراحی و توسعه وب سایت با سال ها تجربه در این</p>
+            <p>زمینه در خدمت شماست</p>
+          </div>
 
           <button className="w-[320px] h-[48px] md:w-[157px] mt-[3rem] text-white bg-custom-orange rounded-lg mx-auto lg:mr-0 lg:self-end">
             اطلاعات بیشتر
