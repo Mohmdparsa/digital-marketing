@@ -1,6 +1,7 @@
-import circle1 from "../assets/serviceImage/circle1.png";
-import circle2 from "../assets/serviceImage/circle2.png";
-import circle3 from "../assets/serviceImage/circle3.png";
+import image1 from "../assets/serviceImage/image1.jpg";
+import image2 from "../assets/serviceImage/image2.jpg";
+import image3 from "../assets/serviceImage/image3.jpg";
+import image4 from "../assets/serviceImage/image4.jpg";
 
 const Services = () => {
   const cardsData = [
@@ -8,25 +9,25 @@ const Services = () => {
       title: "طراحی به روز",
       description:
         "طراحی گرافیکی زیبا , جذاب و کاربروپسند برای جذب هرچه بیشتر کاربران با هر سلیقه ای",
-      imageUrl: circle1,
+      imageUrl: image1,
     },
     {
       title: "سيو محتوا",
       description:
         "بهینه سازی محتوای وب سایت به منظور بهبود رتبه محتوا در نتایج جست و جوی گوگل",
-      imageUrl: circle2,
+      imageUrl: image2,
     },
     {
       title: "کدنویسی بهینه",
       description:
         "کدنویسی کارآمد , قابل نگهداری و قابل توسعه سایت  برای گرفتن نتیجه مطلوب",
-      imageUrl: circle1,
+      imageUrl: image3,
     },
     {
       title: "سرعت عالی",
       description:
         "انتخاب هاستینگ مناسب برای بارگرذاری محتوا در سریعترین زمان ممکن برای کاربران",
-      imageUrl: circle3,
+      imageUrl: image4,
     },
   ];
   return (
