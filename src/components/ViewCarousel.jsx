@@ -47,12 +47,12 @@ const ViewCarousel = () => {
   };
 
   return (
-    <div className="mx-auto max-w-[320px] md:max-w-[1206px] px-5">
+    <div className="mx-auto max-w-[320px] lg:max-w-[1206px] px-5">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="p-5">
-            <div className="flex flex-col-reverse md:flex-row lg:flex-row items-center justify-between w-full h-[520px]">
-              <div className="flex-1 mb-5 md:mb-0 text-center md:text-right mr-0 md:mr-[4rem] mt-[3rem] md:mt-0">
+            <div className="flex flex-col-reverse  lg:flex-row items-center justify-between w-full h-[520px]">
+              <div className="flex-1 mb-5 md:mb-0 text-center lg:text-right mr-0 lg:mr-[4rem] mt-[3rem] md:mt-[5rem]">
                 <h2>{slide.comment}</h2>
                 <div className="flex flex-col">
                   <span className="text-blue-700 text-2xl font-bold mt-[1rem] md:mt-2">
