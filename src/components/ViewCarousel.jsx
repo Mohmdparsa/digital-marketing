@@ -45,27 +45,27 @@ const ViewCarousel = () => {
       },
     ],
   };
+
   return (
-    <>
+    <div className="mx-auto max-w-[320px] md:max-w-[1206px] px-5">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="p-5">
-            <div className="flex flex-col-reverse md:flex-row lg:flex-row items-center justify-between w-full max-w-[320px] md:max-w-[1206px] h-[520px] md-auto mx-auto ">
-              <div className="flex-1 mb-5 md:mb-0 text-center md:text-right w-full h-auto mr-0 md:mr-[4rem] mt-[3rem] md:mt-0">
+            <div className="flex flex-col-reverse md:flex-row lg:flex-row items-center justify-between w-full h-[520px]">
+              <div className="flex-1 mb-5 md:mb-0 text-center md:text-right mr-0 md:mr-[4rem] mt-[3rem] md:mt-0">
                 <h2>{slide.comment}</h2>
                 <div className="flex flex-col">
-                  <span className=" text-blue-700 text-2xl font-bold mt-[1rem] md:mt-2">
+                  <span className="text-blue-700 text-2xl font-bold mt-[1rem] md:mt-2">
                     {slide.name}
                   </span>
                   <span className="mt-[1rem] md:mt-0">{slide.job}</span>
                 </div>
               </div>
-
               <div className="ml-10 md:ml-0 mt-5 md:mt-0 mr-[2rem] md:mr-2">
                 <img
                   src={slide.image}
                   alt={slide.image}
-                  className=" w-[163px] h-[163px] md:w-[229px] md:h-[229px]  rounded-full"
+                  className="w-[163px] h-[163px] md:w-[229px] md:h-[229px] rounded-full"
                   style={{ margin: "0", padding: "0" }}
                 />
               </div>
@@ -73,7 +73,7 @@ const ViewCarousel = () => {
           </div>
         ))}
       </Slider>
-    </>
+    </div>
   );
 };
 
