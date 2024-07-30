@@ -1,4 +1,5 @@
-import timeImage from "../assets/offerSectionImage/time-image.png";
+
+import Timer from "./Timer";
 const OfferSection = () => {
   return (
     <>
@@ -27,9 +28,7 @@ const OfferSection = () => {
               اطلاعات خواسته شده رو وارد کنید و منتظر تماس ما باشید.
             </p>
           </div>
-          <div className="w-[321px] h-[72px] md:w-[714px] md:h-[128px] mt-10 md:mt-[4rem]">
-            <img src={timeImage} alt="time-image" />
-          </div>
+          <Timer />
           <div className="w-[320px] h-[48px] md:w-[766px] md:h-[48px] flex-col">
             <input
               type="text"
