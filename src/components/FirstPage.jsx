@@ -13,13 +13,12 @@ const FirstPage = () => {
               باشی{" "}
             </h1>
           </div>
-          <div className="block lg:hidden  mx-auto lg:mr-[2rem] w-[320px] h-[192px]">
-            <h1 className="text-4xl font-bold mr-[1rem]">می خوای یه سایت</h1>
-            <h1 className="text-4xl font-bold mr-[2rem]">
-              {" "}
-              <span className="text-custom-orange">طراحی به روز </span>با{" "}
+          <div className="block lg:hidden mx-auto w-[320px] h-[192px] text-center">
+            <h1 className="text-4xl font-bold">می خوای یه سایت</h1>
+            <h1 className="text-4xl font-bold">
+              <span className="text-custom-orange">طراحی به روز</span> با
             </h1>
-            <h1 className="text-4xl font-bold mr-[3.6rem]">داشته باشی</h1>
+            <h1 className="text-4xl font-bold">داشته باشی</h1>
           </div>
 
           <div className="hidden lg:block t mb-2 ml-[3rem] w-[514px] h-[54px]">
