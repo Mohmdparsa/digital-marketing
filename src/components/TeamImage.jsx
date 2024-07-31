@@ -18,13 +18,13 @@ const TeamImage = () => {
       </div>
       <div className=" flex-col mr-[10rem] lg:-mr-[32rem]  hidden md:block mb-[10rem] lg:mb-0">
         <div >
-          <h1 className="text-5xl font-bold -mt-[5rem]">
+          <h1 className="text-5xl font-bold -mt-[5rem] mr-[1.7rem] lg:mr-0">
             {" "}
             <apan className="text-custom-blue">تیم متخصص </apan>با
           </h1>
-          <h1 className="text-5xl font-bold">توانایی منحصر بفرد</h1>
+          <h1 className="text-5xl font-bold mt-[1rem]">توانایی منحصر بفرد</h1>
         </div>
-        <div>
+        <div >
           <p className="text-custom-black text-xl mt-[2rem]">
             ما میتوانیم با تیم حرفه ای خود به شما برای تحقق اهدافتان کمک کنیم
           </p>
