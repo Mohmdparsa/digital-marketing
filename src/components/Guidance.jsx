@@ -17,7 +17,7 @@ const Guidance = () => {
           <h1 className="text-5xl font-bold block lg:hidden">
             نیاز به <span className="text-custom-blue">راهنمایی</span>
           </h1>
-          <h1 className="text-5xl font-bold block lg:hidden mr-[2rem] md:mr-0">
+          <h1 className="text-5xl font-bold block lg:hidden mt-[1rem] mr-[2rem] md:mr-0">
             بیشتر دارید؟
           </h1>
           <div className="mt-[2rem]">
