@@ -7,19 +7,19 @@ const OfferSection = () => {
         <div className="w-[321px] h-[596px] md:w-[766px] md:h-[392px]">
           <div className="w-[691px] h-[64px]   items-center justify-center hidden md:block mr-[4rem]">
             {" "}
-            <h1 className="text-4xl font-bold ml-[1rem] mr-[1rem] md:ml-0 md:mr-0">
+            <h1 className="text-4xl font-bold ml-[1rem] mr-[1rem]  md:ml-0 md:mr-[2rem] lg:mr-[2rem]">
               <span className="text-custom-orange">تخفیف طراحی سایت </span>برای
               مدت محدود
             </h1>
           </div>
           <div className="w-[320px] h-[112px]  items-center justify-center block md:hidden ">
-            <h1 className="text-4xl font-bold ml-[1rem]  md:ml-0 md:mr-0 w-[320px]">
+            <h1 className="text-4xl font-bold ml-[1rem]  md:ml-0 mr-[0.4rem] md:mr-0 w-[320px]">
               <span className="text-custom-orange">تخفیف طراحی سایت </span>
               <br />
               <span className="mr-[2rem]">برای مدت محدود</span>
             </h1>
           </div>
-          <div className="w-[321px] h-[72px] md:w-[534px] md:h-[48px]  flex items-center justify-center flex-col mr-0 md:mr-[5rem] mt-10 md:mt-[2rem]">
+          <div className="w-[321px] h-[72px] md:w-[534px] md:h-[48px]  flex items-center justify-center flex-col mr-0 md:mr-[6rem] mt-10 md:mt-[2rem]">
             <p className="text-custom-gray text-sm">
               برای استفاده از تخفیف ویژه طراحی سایت فقط تا قبل از اتمام زمان زیر
               فرصت دارید.{" "}
